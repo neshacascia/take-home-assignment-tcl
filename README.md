@@ -49,9 +49,9 @@ Your team has agreed on the following requirements for the app's MVP (minimum vi
   - [x] **When the UI is complete**, ensure that `searchArtworks` makes requests to the AIC `/artworks/search/` endpoint, as described in "Working with the API"
 - [x] Create a `SearchForm` component that will allow the user to perform a search. See `src/components/SearchForm.jsx`
   - [x] Fix a known bug: the whole app refreshes when `SearchForm` is submitted
-- [ ] In the `App` component, render
+- [x] In the `App` component, render
   - [x] the `SearchForm` component and
-  - [ ] a list of results including _the name of the piece_ and _the artist who created the piece_.
+  - [x] a list of results including _the name of the piece_ and _the artist who created the piece_.
 - [ ] Render a new view when a user clicks a result. It could be called `ImageDetailsPage`.
 - [ ] In the `ImageDetailsPage` component, render
   - [ ] a back button that, when clicked, returns the user to the list view💡, and
