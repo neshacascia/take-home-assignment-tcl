@@ -29,6 +29,10 @@ export function App() {
 		setArtwork(item);
 	}
 
+	function backButtonHandler() {
+		setSelectedArtwork(false);
+	}
+
 	const resultsEl = results?.map((result) => (
 		<li key={result.id}>
 			<button onClick={() => selectedResult(result)}>
@@ -45,7 +49,7 @@ export function App() {
 			{!selectedArtwork ? (
 				results?.length > 0 && <ul>{resultsEl}</ul>
 			) : (
-				<ImageDetailsPage artwork={artwork} />
+				<ImageDetailsPage artwork={artwork} backButton={backButtonHandler} />
 			)}
 
 			<Footer />
