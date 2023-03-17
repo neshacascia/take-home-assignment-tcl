@@ -55,7 +55,7 @@ Your team has agreed on the following requirements for the app's MVP (minimum vi
 - [x] Render a new view when a user clicks a result. It could be called `ImageDetailsPage`.
 - [ ] In the `ImageDetailsPage` component, render
   - [ ] a back button that, when clicked, returns the user to the list view💡, and
-  - [ ] the artwork whose title the user just clicked on
+  - [x] the artwork whose title the user just clicked on
 
 💡 You might think to install React Router to handle the back button functionality. That's probably something you would do in a production application, but your team has agreed that React Router is _out of scope_ for this MVP. Instead, you can use [conditional rendering](https://beta.reactjs.org/learn/conditional-rendering) to show and hide content!
 
