@@ -28,3 +28,37 @@ code {
 	font-family: Menlo, Consolas, Monaco, Liberation Mono, Lucida Console,
 		monospace;
 }
+
+li {
+	list-style: none;
+}
+
+.artwork-result {
+	all: unset;
+	cursor: pointer;
+}
+
+.artwork-result:hover {
+	color: purple;
+}
+
+button {
+	cursor: pointer;
+}
+
+.image-details {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 16px;
+	margin-top: 20px;
+}
+
+.artwork-image {
+	width: 600px;
+}
+
+.artwork-title {
+	margin-bottom: -10px;
+}
