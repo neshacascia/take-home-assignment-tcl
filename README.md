@@ -52,7 +52,7 @@ Your team has agreed on the following requirements for the app's MVP (minimum vi
 - [x] In the `App` component, render
   - [x] the `SearchForm` component and
   - [x] a list of results including _the name of the piece_ and _the artist who created the piece_.
-- [ ] Render a new view when a user clicks a result. It could be called `ImageDetailsPage`.
+- [x] Render a new view when a user clicks a result. It could be called `ImageDetailsPage`.
 - [ ] In the `ImageDetailsPage` component, render
   - [ ] a back button that, when clicked, returns the user to the list view💡, and
   - [ ] the artwork whose title the user just clicked on
