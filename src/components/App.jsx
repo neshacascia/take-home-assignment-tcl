@@ -35,9 +35,9 @@ export function App() {
 
 	const resultsEl = results?.map((result) => (
 		<li key={result.id}>
-			<button onClick={() => selectedResult(result)}>
-				<h2>{result.title}</h2>
-				<p>{result.artist_title}</p>
+			<button onClick={() => selectedResult(result)} className="artwork-result">
+				<h2 className="artwork-title">{result.title}</h2>
+				<p>{result.artist_title ? `By: ${result.artist_title}` : ''}</p>
 			</button>
 		</li>
 	));
